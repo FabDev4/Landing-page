@@ -1,0 +1,237 @@
+:root {
+  --hero-footer: #1f2937;
+  --secundary-text: 18px #E5E7EB;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+section {
+  margin: 0 auto;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--hero-footer);
+  color: #fff;
+
+
+}
+
+header section {
+  font-size: 1.5rem;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+
+}
+
+nav {
+  display: flex;
+  gap: 13px;
+}
+
+.logo {
+  font-weight: 600;
+}
+
+a.opcoes {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 300;
+
+}
+
+a.opcoes:hover {
+  color: #E5E7EB;
+  transform: scale(110%);
+}
+
+main {
+  font-size: 15px;
+}
+
+.mains {
+  padding-top: 6vh;
+  height: 70vh;
+  background-color: var(--hero-footer);
+  display: flex;
+  color: #fff;
+  padding-left: 10rem;
+  padding-right: 3rem
+}
+
+.mains h2 {
+  font-size: 40px;
+}
+
+.mains p {
+  font-weight: 300;
+}
+
+.conteudo {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  /* alinha verticalmente */
+  gap: 5rem;
+  /* espaço entre texto e imagem */
+}
+
+.p_principal {
+  margin-top: 2rem;
+}
+.conteudo button{
+  width: 150px;
+  height: 35px;
+  background-color:#3882f6 ;
+  color: #fff;
+  border-radius: 0.6rem;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.conteudo button:hover{
+  transition: 0.7s;
+  transform: scale(110%);
+}
+.conteudo img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.conteudo2 {
+  background-color: rgb(255, 255, 255);
+  height: 80vh;
+  width: 99.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+figure{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 5rem;
+}
+.little_imgs{
+  height: 200px;
+  width: 200px;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.little_imgs:hover{
+  transition: 0.7s;
+  transform: scale(140%);
+   margin-bottom: 30px;
+}
+.conteudo2 div{
+  display: flex;
+}
+.conteudo2 h2{
+  font-size: 2rem;
+}
+figure p{
+  text-align: center;
+  font-weight:300 ;
+}
+.ditado{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color:#e5e7eb;
+  height: 70vh;
+  width: 99.2vw;
+}
+.ditado q{
+  font-size: xx-large;
+}
+.ditado p{
+  font-size: larger;
+  font-weight: 800;
+  margin-left: 40rem;
+}
+.propaganda{
+  display: flex;
+  height: 70vh;
+  width: 99.2vw;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+
+}
+.conteiner{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  width: 60vw;
+  height: 20vh;
+  border-radius: 1rem;
+}
+.propaganda_text{
+  
+}
+.propaganda_text p{
+  margin-top: 5px;
+}
+.conteiner button{
+  width: 150px;
+  height: 35px;
+  background:transparent;
+  color: #fff;
+  border-radius: 0.6rem;
+  outline: none;
+  border: 1px solid #fff;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.5;
+}
+.conteiner button:hover{
+  transition: 0.7s;
+  transform: scale(110%);
+}
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  width: 99.2vw;
+  background-color: var(--hero-footer);
+  color: #fff;
+}
+.FabDev{
+  font-weight: 800;
+  color: #3882f6;
+}
+.odin{
+  color: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.odin:hover{
+  color: yellow;
+}
+button a{
+  color: #fff;
+}
